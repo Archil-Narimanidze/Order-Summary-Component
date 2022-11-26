@@ -2,31 +2,48 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css">
     <title>Order Summary Component</title>
 </head>
-<main>
-    <img class="background" src="./images/pattern-background-desktop.svg" alt="">
-<div class="pic">
- <img src="./images/illustration-hero.svg" alt="illustration hero">
-</div>
-<h1>Order Summary</h1>
-<p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-<div class="plan-box">
-    <img src="./images/icon-music.svg" alt="music icon">
-    <h3>Annual Plan</h3>
-    <h5>$59.99/year</h5>
-    <div class="change">Change</div>
-    <div class="payment-box">
-        <div class="payment-text">Proceed to Payment</div>
-    </div>
-<span>Cancel Order</span>
-</div>
-</main>
+
 <body>
+
+    <div class="container">
+
+        <img class="illustration-image" src="./images/illustration-hero.svg" alt="illustration hero" />
+
+        <h1>Order Summary</h1>
+        <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+        </p>
+        <div class="plan-box">
+            <img class="music-icon" src="./images/icon-music.svg" alt="music icon" />
+
+            <div class="anual-payment-year">
+                <h3>Annual Plan</h3>
+                <h5>$59.99/year</h5>
+            </div>
+            <div class="payment-change">
+
+
+                <div class="change">Change</div>
+            </div>
+
+
+        </div>
+
+        <a class="payment" href="#">Proceed to Payment</a>
+
+        <!-- <div class="cancel order div" > -->
+        <!-- <a class="cancel" href="#">Cancel Order</a> -->
+        <button class="cancel">Cancel Order</button>
+    </div>
+    </div>
 
 </body>
 
